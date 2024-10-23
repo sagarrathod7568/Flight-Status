@@ -20,7 +20,7 @@ Technologies Used
 
 *Installation*
 Clone the repository:
-https://github.com/Dhananjay155/Travelopia.git
+https://github.com/sagarrathod7568/Flight-Status.git
 Install the dependencies:
 npm install
 Usage
