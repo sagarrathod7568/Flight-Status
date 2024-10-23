@@ -2,7 +2,6 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { fetchFlightDetails } from "../api/flightAPI";
 import { FlightDetail } from "../type";
-import Navbar from "../components/Navbar";
 
 const FlightDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -34,7 +33,7 @@ const FlightDetailPage = () => {
 
   return flight ? (
     <div className="container mt-5">
-    <Navbar/>
+    
       <div className="card">
         <div className="card-body">
           <h2 className="card-title mb-4 text-center">
